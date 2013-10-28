@@ -16,6 +16,12 @@
     "uppercaseme": "./bin/uppercasemetest"
   }, 
   "dependencies": {},
+  "devDependencies": {
+    "mocha": "0.3.x"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha "
+  },
   "engines": {
     "node": "*"
   }
