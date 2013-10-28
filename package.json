@@ -20,7 +20,7 @@
     "mocha": "0.3.x"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha "
+    "test": "node_modules/.bin/mocha -u tdd"
   },
   "engines": {
     "node": "*"

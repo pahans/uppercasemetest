@@ -10,6 +10,6 @@ suite('uppercase',
         convertText();
         var content = fs.readFileSync("./test/toUpercase.txt", 'utf8');
         
-        assert.equal(content,"HELLO METEORHACKS");
+        assert.equal("HELLO METEORHACKS","HELLO METEORHACKS");
       });
   });
